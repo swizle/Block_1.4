@@ -1,0 +1,136 @@
+@font-face {
+    font-family: TT Lakes;
+    src: url('TTLakes-Regular.ttf');
+}
+
+body {
+    margin: 0;
+    font-family: "TT Lakes", serif;
+}
+
+.left-menu{
+    width: 320px;
+    box-shadow:  16px 0px 52px #0E185033;
+    position: sticky;
+}
+
+.left-menu-section {
+    height: 1024px;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-menu-section-div-top {
+    display: flex;
+    height: 88px;
+}
+
+.left-menu-section__circle-btn {
+    height: 40px;
+    width: 40px;
+    background: #FF3E79 no-repeat center;
+    border: 0;
+    border-radius: 50%;
+}
+
+.left-menu-section-div-top__btn-close {
+    margin: auto 24px;
+    margin-right: 0;
+    background-image: url("Images/cancel.svg");
+}
+
+.left-menu-section-div-top__img-logo {
+    margin: auto 16px;
+}
+
+.left-menu-section-div-top__btn-search {
+    margin: auto auto;
+    margin-right: 24px;
+    background-image: url("Images/search.svg");
+}
+
+.left-menu-section-nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-menu-section__btn {
+    margin-top: 32px;
+    margin-left: 24px;
+    text-decoration: none;
+    color: #1B1C21;
+}
+
+.left-menu-section__btn_active {
+    margin-left: 0;
+    margin-top: 22px;
+    color: #7E7E82;
+    display: flex;
+    align-items: center;
+}
+
+.left-menu-section__btn_active::before {
+    margin-right: 20px;
+    content: url("Images/highlight.svg");
+    height: 32px;
+    width: 4px;
+}
+
+.left-menu-section-footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-left: 24px;
+}
+
+.left-menu-section-footer-nav {
+    display: flex;
+}
+
+.left-menu-section-footer-nav__btn-call {
+    background-image: url("Images/call.svg");
+}
+
+.left-menu-section-footer-nav__btn-chat {
+    margin-left: 16px;
+    background-image: url("Images/chat.svg");
+}
+
+.left-menu-section-footer-nav__btn-profile {
+    margin-left: 16px;
+    background-image: url("Images/profile.svg");
+}
+
+.left-menu-section-footer-aside {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-menu-section-footer-aside__p-mail {
+    margin: 0;
+    margin-top: 16px;
+}
+
+.left-menu-section-footer-aside__p-number {
+    margin: 0;
+    margin-top: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.left-menu-section-footer-div-bottom {
+    display: flex;
+}
+
+.left-menu-section-footer-div-bottom__btn {
+    margin-left: 7px;
+    margin-top: 40px;
+    margin-bottom: 32px;
+    text-decoration: none;
+    color: #1B1C21;
+}
+
+.left-menu-section-footer-div-bottom__btn_active {
+    margin-left: 0px;
+    color: #7E7E82;
+}
